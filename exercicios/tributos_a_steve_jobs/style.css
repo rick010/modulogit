@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #8888;
+	font-size: black italic ;
+}
+header {
+	display: flex;
+	justify-content: center;
+	background-color: #8888;
+	color: #black;
+	border-bottom: 1px solid #fff;
+}
+section	{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.container {
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+	padding: 35px;
+}
+#degra, h1, h2 {
+	display: flex;
+	text-align: center;
+	text-align: justify;
+	justify-content: center;
+	font-size: 18px;
+	color: #85ddf7;
+	background-image: linear-gradient(#0e1640, transparent, #0e1640);
+}
+h1 {
+	font-size: 45px;
+}
+#background {
+	background-image: url('images/ciencia.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.first-content {
+	width: 360px;
+	height: auto;
+	border:0.5px solid #fff;
+	border-radius: 5px;	
+	display: flex;
+	margin: auto;
+	color: #fff;
+}
+.first-content img {
+	margin: 5px;
+	border-radius: 5px;
+}
+.legenda-img {
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 5px;
+	font-weight: bold;
+	color: black;
+}
+.content {
+	color: black;
+}
+.content p {
+	font-size: 15px;
+	text-align: justify;
+}
+.final-content {
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+.final-content p {
+	padding-right: 30px;
+
+}
+.final-content img {
+	margin-top: 15px;
+	border-radius: 5px;
+	object-fit: contain;
+}
+@media (max-width: 580px) {
+	.final-content {
+		display: contents;
+	}
+}
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	border-top: 1px solid #fff;
+}
+.rodape {
+	display: flex;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	font-size:10px;
+}
+.rodape a {
+	text-decoration: none;
+	padding-left: 2px;
+	color: #fff;
+	font-weight: bold;
+}
