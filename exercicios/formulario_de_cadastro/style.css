@@ -1,0 +1,100 @@
+body {
+	background:#03CDE3;
+	background: linear-gradient(-50deg, #2af977,#1cabd5)
+}
+.up {
+	display: flex;
+	font-size: 50px;
+	color: #FFFFFF;
+	justify-content: center;
+	align-content: center;
+}
+@media (max-width: 450px) {
+	.up {
+		font-size: 30px;
+	}
+	.form-center {
+		flex-direction: column;
+	}
+	.form-center .form-1 {
+	width: 78%;
+	} 
+	.form-center .form-2 {
+		width: 78%;
+	}
+	.botoes {
+		flex-direction: column;
+	}
+	.botoes #input_bt1 {
+		width: 100px;
+	}
+	.botoes #input_bt2 {
+		width: 100px;
+	}
+}
+.container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 800px ;
+}
+main {
+	display: flex;
+	justify-content: center;
+}
+.cadastro {
+	background-color: #BEBEBE;
+	width: 70%;
+	border-radius: 30px;
+	padding: 20px;
+}
+#logo {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: auto;
+	height: 100px;
+	padding-bottom: 20px;
+}
+.form-center {
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	font-style: italic;
+	padding: 5px;
+}
+.form-1, .form-2{
+	width: 48%;
+} 
+.form-center input {
+	width: 100%;
+	border-radius: 30px;
+	border: 1px  solid #162324;
+	margin-bottom: 5px;
+	height: 30px;
+	padding: 5px;
+}
+.botoes input{
+	width: 48.5%;
+	background: linear-gradient(-50deg, #2af977,#1cabd5);
+	margin-top: 15px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 110px;
+	border-top: 1px solid #fff;
+}
+.rodape {
+	display: flex;
+	margin: 10px;
+	text-align: center;
+	color: #fff;
+	font-size:10px;
+}
+.rodape a {
+	text-decoration: none;
+	padding-left: 2px;
+	color: #fff;
+	font-weight: bold;
+}
