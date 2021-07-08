@@ -1,0 +1,26 @@
+body {
+	background: black;
+	margin: 0;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+}
+table {
+	background: white;
+	margin: auto;
+	outline: auto;
+	padding: 5px;
+}
+th {
+	background: #898989;
+	padding: 5px;
+}
+td {
+	padding: 5px;
+}
+tr:nth-child(even) {
+	background: #74F563;
+}
+tr:nth-child(odd) {
+	background: #ECE0F7;
+}
